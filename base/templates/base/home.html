@@ -1,0 +1,89 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dejango #1</title>
+    <!-- add css -->
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="card" class="col-md-3">
+                <!-- Profile Section -->
+                <div class="card card-body profile_wrapper h-100 border-info">
+                    <img class="user_profile profile_pic" src="{% static '/images/profile_short.JPG' %}" alt="user">
+                    <hr>
+                    <h4>Hi I'm Maruf.</h4>
+                    <p>I love coding, doing research and collaborating.</p>
+                </div>
+            </div>
+            <div id="card" class="col-md-9">
+                <!-- Discription -->
+                <div class="card card-body h-100 border-info">
+                    <h4>My First Project of Django</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus at architecto eius vel, quisquam asperiores nostrum minima dolore recusandae ipsa aperiam odit quaerat quam nemo, labore sit sapiente ipsam corporis.</p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, labore! Fugit reprehenderit molestiae dicta ratione deleniti sed possimus fugiat aperiam voluptatem, rerum nisi </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, modi dolor aliquam non autem.</p>
+
+                    <!-- Social media links -->
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="card" class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Programmer</h5>
+                    <hr>
+                    <p>Full stack developer at Home 😁😎</p>
+                    <p>Designed, build and managed a store management system as a sole developer. Designed a lot of UI, android Apps, Dashboard and have Experience with Sockets and Servers. </p>
+                </div>
+            </div>
+
+            <div id="card" class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <hr>
+                    <p>Python, PyQt5, C, C++, C#, Socket, Kivy, TkinTer, Arduino, MicroPython, CircuitPython, raspberry pi, HTML/CSS, JavaScript</p>
+                    <p>PS: Working on Django, C#, MicroPython, DB</p>
+                </div>
+            </div>
+
+            <div id="card" class="col-md-6 last_Container">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>Build Ugly Protypes First</p>
+                    <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where i need to figure out why things work the way they do. Documentation is just a reference.</p>
+                </div>
+            </div>
+
+            <div id="card" class="col-md-6 last_Container">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>Now my first priority is to study and get an admission on a good Univarsity. And Build some small projects and learn more about programming.</p>
+                    <p>Aside from building small projects I would love to enter a position where i can be apart of a bigger team & learn from others with more experience then myself.</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
